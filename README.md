@@ -1,4 +1,4 @@
-# Автотесты для **работы в Яндекс*, [**https://yandex.ru/jobs**](https://yandex.ru/jobs)
+# Автотесты для сайта *работа в Яндекс*, [**https://yandex.ru/jobs**](https://yandex.ru/jobs)
 
 ## Стек и инструменты
  Тесты были написаны на Java + JUnit5 + Selenide + Gradle
