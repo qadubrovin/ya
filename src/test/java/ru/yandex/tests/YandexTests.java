@@ -62,17 +62,4 @@ public class YandexTests extends TestBase {
         });
     }
 
-    @Test
-    @Description("Page console log should not have errors")
-    @DisplayName("Page console log should not have errors")
-    void consoleShouldNotHaveErrorsTest() {
-        step("Open 'https://ya.ru'", () -> {
-            jobs.openYaJobs();
-        });
-
-        step("Console logs should not contain text 'SEVERE'", () -> {
-            String consoleLogs = DriverUtils.getConsoleLogs();
-            assertThat(consoleLogs).doesNotContain(errorText);
-        });
-    }
 }
